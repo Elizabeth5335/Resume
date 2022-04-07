@@ -1,0 +1,104 @@
+.header {
+  margin: 0 0 10px;
+  padding: 32px 0 32px;
+  background: #cfb169;
+  word-wrap: break-word;
+}
+
+.contacts{
+  max-width: 650px;
+}
+
+.table-container{
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+.progress-bar {
+  border-radius: 15px;
+}
+
+.divider{
+  background-color: #a84e32;
+  height: 10px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.header-email {
+  pagging-left: 30px;
+  background-image: url('img/mail_icon.svg');
+  background-repeat: no-repeat;
+}
+
+.header-phone {
+  pagging-left: 30px;
+  background-image: url('img/phone_icon.svg');
+  background-repeat: no-repeat;
+}
+
+.header a{
+  color: white;
+}
+
+.subheading {
+  margin: auto;
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.progress-bar {
+  background-color: #a84e32;
+}
+
+/**
+ * {box-sizing: border-box;}
+**/
+.img-container {
+  position: relative;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.hobbies {
+  width: 100%;
+  height: auto;
+}
+
+body {
+overflow-x: hidden
+}
+
+.footer{
+  float: left;
+  width:100%;
+  display: flex;
+  background: #a84e32;
+}
+
+
