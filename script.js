@@ -1,11 +1,5 @@
 (function() {
-  "use strict";
 
-
-
-  /**
-   * Header fixed top on scroll
-   */
   let selectHeader = select('#header')
   if (selectHeader) {
     let headerOffset = selectHeader.offsetTop
